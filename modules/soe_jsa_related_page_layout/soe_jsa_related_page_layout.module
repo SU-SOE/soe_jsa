@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Stanford Related Page Layout feature.
+ */
+
+include_once 'soe_jsa_related_page_layout.features.inc';

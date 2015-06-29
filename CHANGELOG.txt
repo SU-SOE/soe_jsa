@@ -1,0 +1,7 @@
+School of Engineering - Jumpstart Academic x.x-x.x xxxx-xx-xx
+-------------------------------------------
+
+School of Engineering - Jumpstart Academic 7.x-1.0-alpha1 2015-06-29
+--------------------------------------------------
+- Initial Release 
+

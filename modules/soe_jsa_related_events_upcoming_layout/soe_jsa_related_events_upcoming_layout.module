@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Stanford Related Events Upcoming Layout feature.
+ */
+
+include_once 'soe_jsa_related_events_upcoming_layout.features.inc';

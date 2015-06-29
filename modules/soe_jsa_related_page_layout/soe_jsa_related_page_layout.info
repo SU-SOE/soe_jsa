@@ -1,0 +1,27 @@
+name = Stanford School of Engineering Jumpstart Academic Related Page Layout
+description = Provides a default layout for related content on the page content type.
+core = 7.x
+package = Stanford
+version = 7.x-1.0
+project = soe_jsa_related_page_layout.info_related_page_layout
+dependencies[] = context
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = list
+dependencies[] = options
+dependencies[] = stanford_image
+dependencies[] = stanford_page
+dependencies[] = stanford_related_content
+dependencies[] = strongarm
+dependencies[] = taxonomy
+features[context][] = soe_jsa_page_related
+features[ctools][] = context:context:3
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features_exclude[dependencies][stanford_content_status] = stanford_content_status
+features_exclude[dependencies][stanford_faq] = stanford_faq
+features_exclude[field_base][field_s_faq_categories] = field_s_faq_categories
+features_exclude[field_instance][node-stanford_page-field_s_content_status] = node-stanford_page-field_s_content_status
+features_exclude[field_instance][node-stanford_page-field_s_faq_categories] = node-stanford_page-field_s_faq_categories
+features_exclude[field_instance][node-stanford_page-field_s_related_content] = node-stanford_page-field_s_related_content
+

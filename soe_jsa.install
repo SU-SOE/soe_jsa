@@ -1,0 +1,29 @@
+<?php
+/**
+ * @file
+ * Installation file
+ */
+
+/**
+ * Implements hook_install().
+ */
+function soe_jsa_install() {
+}
+
+/**
+ * Implements hook_enable().
+ */
+function soe_jsa_enable() {
+}
+
+/**
+ * Implements hook_disable().
+ */
+function soe_jsa_disable() {
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function soe_jsa_uninstall() {
+}

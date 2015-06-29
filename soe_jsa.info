@@ -1,0 +1,8 @@
+name = Stanford School of Engineering Jumpstart Academic
+description = For All things custom with the School of Engineering Jumpstart Academic Product
+core = 7.x
+version = 7.x-4.4
+project = soe_jsa
+project status url = https://github.com/SU-SWS/soe_jsa
+dependencies[] = stanford_jumpstart
+stylesheets[all][] = css/soe_jsa.css
