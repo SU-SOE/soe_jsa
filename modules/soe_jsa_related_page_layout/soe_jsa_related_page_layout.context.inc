@@ -42,8 +42,8 @@ function soe_jsa_related_page_layout_context_default_contexts() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('SoE-JSA');
   t('Related content on Stanford pages');
+  t('SoE-JSA');
   $export['soe_jsa_page_related'] = $context;
 
   return $export;
