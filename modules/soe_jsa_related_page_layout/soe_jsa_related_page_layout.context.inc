@@ -35,6 +35,12 @@ function soe_jsa_related_page_layout_context_default_contexts() {
           'region' => 'sidebar_second',
           'weight' => '-10',
         ),
+        'views-e1db4622d5599968122994300d2a6f47' => array(
+          'module' => 'views',
+          'delta' => 'e1db4622d5599968122994300d2a6f47',
+          'region' => 'sidebar_second',
+          'weight' => '-9',
+        ),
       ),
     ),
   );
