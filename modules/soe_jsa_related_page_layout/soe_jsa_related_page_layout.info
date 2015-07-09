@@ -29,4 +29,4 @@ features_exclude[field_base][field_s_faq_categories] = field_s_faq_categories
 features_exclude[field_instance][node-stanford_page-field_s_content_status] = node-stanford_page-field_s_content_status
 features_exclude[field_instance][node-stanford_page-field_s_faq_categories] = node-stanford_page-field_s_faq_categories
 features_exclude[field_instance][node-stanford_page-field_s_related_content] = node-stanford_page-field_s_related_content
-mtime = 1436303460
+mtime = 1436406638

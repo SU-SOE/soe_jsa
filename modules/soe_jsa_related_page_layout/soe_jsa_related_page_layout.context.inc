@@ -29,11 +29,11 @@ function soe_jsa_related_page_layout_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views-stanford_person_grid-block' => array(
+        'views-e94fb0374cf38241b08947ca4e210563' => array(
           'module' => 'views',
-          'delta' => 'stanford_person_grid-block',
+          'delta' => 'e94fb0374cf38241b08947ca4e210563',
           'region' => 'content_lower',
-          'weight' => '-10',
+          'weight' => '-9',
         ),
         'views-b0b97e4fb54df88f280eb220fef1829e' => array(
           'module' => 'views',
