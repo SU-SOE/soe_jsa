@@ -22,7 +22,7 @@ function stanford_person_grid_view_views_default_views() {
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = 'Faculty';
+  $handler->display->display_options['title'] = 'People';
   $handler->display->display_options['css_class'] = 'views-row-lines view-stanford-person views-grid-four';
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'perm';
@@ -67,7 +67,7 @@ function stanford_person_grid_view_views_default_views() {
   $handler->display->display_options['fields']['title']['label'] = '';
   $handler->display->display_options['fields']['title']['element_type'] = 'div';
   $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
-  /* Field: Content: Title and Department */
+  /* Field: Field: Title */
   $handler->display->display_options['fields']['field_s_person_faculty_title']['id'] = 'field_s_person_faculty_title';
   $handler->display->display_options['fields']['field_s_person_faculty_title']['table'] = 'field_data_field_s_person_faculty_title';
   $handler->display->display_options['fields']['field_s_person_faculty_title']['field'] = 'field_s_person_faculty_title';
@@ -88,7 +88,7 @@ function stanford_person_grid_view_views_default_views() {
   $handler->display->display_options['fields']['edit_node']['element_wrapper_class'] = 'edit-link';
   $handler->display->display_options['fields']['edit_node']['element_default_classes'] = FALSE;
   $handler->display->display_options['fields']['edit_node']['text'] = 'Edit';
-  /* Sort criterion: Content: Sorting Weight (field_s_person_weight) */
+  /* Sort criterion: Field: Weight (field_s_person_weight) */
   $handler->display->display_options['sorts']['field_s_person_weight_value']['id'] = 'field_s_person_weight_value';
   $handler->display->display_options['sorts']['field_s_person_weight_value']['table'] = 'field_data_field_s_person_weight';
   $handler->display->display_options['sorts']['field_s_person_weight_value']['field'] = 'field_s_person_weight_value';
@@ -114,7 +114,6 @@ function stanford_person_grid_view_views_default_views() {
   $handler->display->display_options['arguments']['tid']['summary_options']['items_per_page'] = '25';
   $handler->display->display_options['arguments']['tid']['specify_validation'] = TRUE;
   $handler->display->display_options['arguments']['tid']['validate']['type'] = 'taxonomy_term';
-
   $handler->display->display_options['arguments']['tid']['validate_options']['type'] = 'convert';
   $handler->display->display_options['arguments']['tid']['validate_options']['transform'] = TRUE;
   /* Filter criterion: Content: Published */
