@@ -67,7 +67,7 @@ function stanford_person_grid_view_views_default_views() {
   $handler->display->display_options['fields']['title']['label'] = '';
   $handler->display->display_options['fields']['title']['element_type'] = 'div';
   $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
-  /* Field: Field: Title */
+  /* Field: Field: Title and Department */
   $handler->display->display_options['fields']['field_s_person_faculty_title']['id'] = 'field_s_person_faculty_title';
   $handler->display->display_options['fields']['field_s_person_faculty_title']['table'] = 'field_data_field_s_person_faculty_title';
   $handler->display->display_options['fields']['field_s_person_faculty_title']['field'] = 'field_s_person_faculty_title';
@@ -88,7 +88,7 @@ function stanford_person_grid_view_views_default_views() {
   $handler->display->display_options['fields']['edit_node']['element_wrapper_class'] = 'edit-link';
   $handler->display->display_options['fields']['edit_node']['element_default_classes'] = FALSE;
   $handler->display->display_options['fields']['edit_node']['text'] = 'Edit';
-  /* Sort criterion: Field: Weight (field_s_person_weight) */
+  /* Sort criterion: Field: Sorting Weight (field_s_person_weight) */
   $handler->display->display_options['sorts']['field_s_person_weight_value']['id'] = 'field_s_person_weight_value';
   $handler->display->display_options['sorts']['field_s_person_weight_value']['table'] = 'field_data_field_s_person_weight';
   $handler->display->display_options['sorts']['field_s_person_weight_value']['field'] = 'field_s_person_weight_value';
