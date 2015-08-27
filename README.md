@@ -17,6 +17,9 @@ This module contains a number of contexts that provide page layout options for t
 **[SoE-JSA Roles](modules/soe_jsa_roles)**
 This module contains a number of default user roles and permissions. Included in the roles are the ‘site owner’ and ‘editor’ roles.
 
+**[Stanford Person Grid View](modules/stanford_person_grid_view)**
+This module contains a grid view for displaying person profiles.
+
 Installation
 ---
 
