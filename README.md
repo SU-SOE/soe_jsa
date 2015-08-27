@@ -11,11 +11,11 @@ This module contains code for the SoE-JSA product. Currently it is a container f
 Sub Modules
 ---
 
-**[SoE-JSA Layouts](modules/soe_jsa_layouts)**
-This module contains a number of contexts that provide page layout options for the home page and internal pages.
+**[SoE-JSA Related Page Layout](modules/soe_jsa_related_page_layout)**
+This module contains a context that provides page layout options for related content.
 
-**[SoE-JSA Roles](modules/soe_jsa_roles)**
-This module contains a number of default user roles and permissions. Included in the roles are the ‘site owner’ and ‘editor’ roles.
+**[SoE-JSA Upcoming Event Page Layout](modules/soe_jsa_related_events_upcoming_layout)**
+This module contains a context for the upcoming events page that provides page layout options for related content.
 
 **[Stanford Person Grid View](modules/stanford_person_grid_view)**
 This module contains a grid view for displaying person profiles.
