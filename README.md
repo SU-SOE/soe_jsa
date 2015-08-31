@@ -22,9 +22,13 @@ This module contains a grid view for displaying person profiles.
 
 Installation
 ---
+When enabling the submodules (listed above) check that the dependencies are met, since each submodule depends on one or more other Stanford feature modules. To install [Stanford Related Person](https://github.com/SU-SWS/stanford_related_content/tree/7.x-1.x/modules/stanford_related_person), for example:
 
-Install this module like any other module. [See Drupal Documentation](https://drupal.org/documentation/install/modules-themes/modules-7). When enabling the submodules (listed above) check that the dependencies are met, since each submodule depends on one or more Stanford feature modules.
-For example, two of the modules depend on the **[Stanford Related Content module](https://github.com/SU-SWS/stanford_related_content)**.
+1. Install this module like any other module. [See Drupal Documentation](https://drupal.org/documentation/install/modules-themes/modules-7)
+2. Enable [SoE-JSA Related Page Layout](modules/soe_jsa_related_page_layout)
+2. Install and enable [Stanford Person](https://github.com/SU-SWS/stanford_person/tree/7.x-5.x-dev) along with the submodule [Stanford Person Grid View](https://github.com/SU-SWS/stanford_person/tree/5.x-grid-view/modules/stanford_person_grid_view)
+3. Enable [Stanford Related Content](https://github.com/SU-SWS/stanford_related_content) and [Stanford Related Person](https://github.com/SU-SWS/stanford_related_content/tree/7.x-1.x/modules/stanford_related_person) 
+
 
 Configuration
 ---
