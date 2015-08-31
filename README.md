@@ -23,8 +23,8 @@ This module contains a grid view for displaying person profiles.
 Installation
 ---
 
-Install this module like any other module. [See Drupal Documentation](https://drupal.org/documentation/install/modules-themes/modules-7)
-This module depends on the **[Stanford Related Content module](https://github.com/SU-SWS/stanford_related_content)**.
+Install this module like any other module. [See Drupal Documentation](https://drupal.org/documentation/install/modules-themes/modules-7). When enabling the submodules (listed above) check that the dependencies are met, since each submodule depends on one or more Stanford feature modules.
+For example, both modules depend on the **[Stanford Related Content module](https://github.com/SU-SWS/stanford_related_content)**.
 
 Configuration
 ---
