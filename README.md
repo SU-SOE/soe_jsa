@@ -26,7 +26,7 @@ When enabling the submodules (listed above) check that the dependencies are met,
 
 1. Install this module like any other module. [See Drupal Documentation](https://drupal.org/documentation/install/modules-themes/modules-7)
 2.  Install and enable [Stanford Related Content](https://github.com/SU-SWS/stanford_related_content) and [Stanford Related Person](https://github.com/SU-SWS/stanford_related_content/tree/7.x-1.x/modules/stanford_related_person) 
-2. Enable the SoE JSA submodules: [Stanford Person Grid View](modules/stanford_person_grid_view), [SoE-JSA Related Page Layout](modules/soe_jsa_related_page_layout), and [SoE-JSA Upcoming Event Page Layout](modules/soe_jsa_related_events_upcoming_layout)
+2. Enable the SoE-JSA submodules: [Stanford Person Grid View](modules/stanford_person_grid_view), [SoE-JSA Related Page Layout](modules/soe_jsa_related_page_layout), and [SoE-JSA Upcoming Event Page Layout](modules/soe_jsa_related_events_upcoming_layout)
 
 Configuration
 ---
